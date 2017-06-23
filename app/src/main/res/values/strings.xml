@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Study Android</string>
+    <string name="title_activity_lesson25__menu">Lesson25_Menu</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+</resources>

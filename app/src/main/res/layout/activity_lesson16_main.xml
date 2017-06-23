@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lesson16_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tranginc.trangnhe.studyandroid.lesson16_Time_DatePickerDialog.Lesson16MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản lý công việc hàng tuần"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:background="@android:color/holo_green_light" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cong viec :"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/edcv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:ems="10"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Noi dung :"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:layout_span="2"
+                android:id="@+id/ednd"
+                android:inputType="textMultiLine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ngay HT :"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/edngayht"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1/3/2017"
+                android:textColor="@android:color/holo_red_light"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:id="@+id/btnDate"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gio HT :"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/edgioht"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8:30 AM"
+                android:textColor="@android:color/holo_red_light"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time"
+                android:id="@+id/btnTime"/>
+
+        </TableRow>
+    </TableLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Them CV"
+        android:layout_gravity="center"
+        android:id="@+id/btThemCV"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvCV1"></ListView>
+
+</LinearLayout>

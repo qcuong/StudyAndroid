@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tranginc.trangnhe.studyandroid">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    ﻿
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".lesson.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".lesson1_tonghaiso.TongHaiSoActivity"
+            android:label="Tổng hai số" />
+        <activity
+            android:name=".lesson2_tinh_bmi.TinhBMIActivity"
+            android:label="Tính BMI" />
+        <activity
+            android:name=".lesson3_ListView.activity.Lesson3MainActivity"
+            android:label="ListView" />
+        <activity
+            android:name=".lesson3_ListView.activity.DuLieuArrayListActivity"
+            android:label="Dữ liệu ArrayList" />
+        <activity
+            android:name=".lesson3_ListView.activity.DuLieuDinhSanActivity"
+            android:label="Dữ liệu định sẵn" />
+        <activity
+            android:name=".lesson3_ListView.activity.DuLieuObjectActivity"
+            android:label="Dữ liệu Object" />
+        <activity
+            android:name=".lesson3_ListView.activity.DuLieuXMLActivity"
+            android:label="Dữ liệu XML" />
+        <activity
+            android:name=".lesson4_ListViewCustom.activity.Lesson4MainActivity"
+            android:label="Custom ListView" />
+        <activity
+            android:name=".lesson5_PersonalImformation.Lesson5MainActivity"
+            android:label="Thông tin cá nhân" />
+        <activity
+            android:name=".lesson6_BookStoreOnline.Lesson6MainActivity"
+            android:label="Chương trình tính tiền bán sách online" />
+        <activity
+            android:name=".lesson7_ListAllSensor.Lesson7MainActivity"
+            android:label="List All Sensor On Device" />
+        <activity android:name=".lesson8_SensorExample.Lesson8MainActivity" />
+        <activity
+            android:name=".lesson9_Spinner.Lesson9MainActivity"
+            android:label="Spinner" />
+        <activity android:name=".lesson10_Spinner_ListView.activity.Lesson10MainActivity" />
+        <activity android:name=".lesson11_AutoCompleteTextView.Lesson11MainActivity" />
+        <activity android:name=".lesson12_UdateDataForAutocompleteTextViewAtRuntime.activity.Lesson12MainActivity" />
+        <activity android:name=".lesson13_GridView.Lesson13WordActivity" />
+        <activity android:name=".lesson13_GridView.Lesson13MainActivity" />
+        <activity android:name=".lesson13_GridView.Lesson13PhotoActivity" />
+        <activity android:name=".lesson14_Intent.Lesson14MainActivity" />
+        <activity android:name=".lesson14_Intent.Lesson14ResultActivity" />
+        <activity android:name=".lesson15_StartActivityForResult.Less15MainActivity" />
+        <activity
+            android:name=".lesson15_StartActivityForResult.Lesson15InputActivity"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog" />
+        <activity android:name=".lesson16_Time_DatePickerDialog.Lesson16MainActivity" />
+        <activity android:name=".lesson17_HandlerUsingMessage.Lesson17MainActivity" />
+        <activity android:name=".lesson18_HandlerUsingPost.Lesson18MainActivity" />
+        <activity android:name=".lesson17_HandlerUsingMessage.Lesson17VeButtonLucRuntime" />
+        <activity android:name=".lesson19_AsyncTask.Lesson19MainActivity" />
+        <activity android:name=".Lesson20_LayKetQuaTraVeCuaAsyncTask.Lesson20MainActivity" />
+        <activity android:name=".Lesson21KetHopAsyncTaskVaHandler.Lesson21MainActivity" />
+        <activity android:name=".lesson22_TabSelector.Less22_TabSelector" />
+        <activity android:name=".lesson23_SQLiteManager.SQLiteManager" />
+        <activity android:name=".lesson23_SQLiteManager.UpdateActivity" />
+        <activity android:name=".lesson24_TabSelector.Lesson24_MainActivity" />
+        <activity android:name=".lesson25_IntentFull.activity.Lesson25_MainActivity"></activity>
+    </application>
+
+</manifest>
